@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular application
-        run: npm run build -- --base-href=/weather-app/
+        run: npm run build -- --base-href=/weather_app/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
